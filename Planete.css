@@ -1,0 +1,205 @@
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+    margin: 0;
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+
+}
+
+header {
+    position: relative;
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+}
+
+nav {
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li {
+    padding-left: 20px;
+}
+
+.logo {
+    padding: 0;
+    width: 55px;
+    height: 50px;
+}
+
+.Debut {
+    width: 100%;
+}
+
+.Span1 {
+    background-color: burlywood;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Span2 {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section {
+    display: flex;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.Planete1 {
+    width: 300px;
+    height: 280px;
+    margin-right: 50px;
+}
+
+.Planete2 {
+    width: 300px;
+    height: 280px;
+    margin-right: 50px;
+
+}
+
+.Section2 {
+    flex-direction: row-reverse;
+}
+
+section {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.Asteroides {
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.Asteroides:before {
+    content: "";
+    background-color: black;
+    width: 392px;
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    right: 200px;
+}
+
+.Asteroides:after {
+    content: "";
+    background-color: black;
+    width: 431px;
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+footer {
+    background-color: black;
+
+
+
+}
+
+#verticale {
+    position: relative;
+    margin: auto;
+}
+
+#verticale:before {
+    content: "";
+    background-color: white;
+    width: 1px;
+    height: 120px;
+    position: absolute;
+    right: 250px;
+    top: 30px;
+
+}
+
+#verticale:after {
+    content: "";
+    background-color: white;
+    width: 1px;
+    height: 120px;
+    position: absolute;
+    left: 250px;
+    top: 30px;
+}
+
+footer div p {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+
+footer>div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: white;
+    margin: auto;
+
+}
+
+#horizontale {
+    position: relative;
+
+}
+
+#horizontale:after {
+    content: "";
+    background-color: white;
+    width: 1200px;
+    height: 1px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+footer div p a {
+    padding: 5px;
+}
+
+
+#h3 {
+    padding-left: 15px;
+}
