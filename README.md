@@ -1,2 +1,2 @@
-# Maquette_planete
+# Maquette
 Maquette sur les planètes
